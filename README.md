@@ -1,28 +1,29 @@
 # 30CC-DELTA-Bioprinter
 
-An open source syringe bioprinter for the extrusion of viscous biomaterials.
-The engineering was developed with Ilias Poutsiakas ([github.com/iliasPts](https://github.com/iliasPts)).
+An open source syringe bioprinter for the extrusion of viscous biomaterials, developed with
+Ilias Poutsiakas ([github.com/iliasPts](https://github.com/iliasPts)).
 
-The machine is built on an Anycubic Kossel Linear, a stock delta printer. The first step is
-to strip it down: everything comes off except the bare frame and the control board. The
-hotend and its heating assembly are removed and replaced by a syringe extruder, designed
-after the [300CC Extruder](https://www.thingiverse.com/thing:5215048) by Emmanuel Hugnot.
+It is built on an Anycubic Kossel Linear, stripped down to its bare frame and control board.
+The hotend and its heating assembly are removed and replaced by a syringe extruder, designed
+after the [300CC Extruder](https://www.thingiverse.com/thing:5215048) by Emmanuel Hugnot. The
+stock firmware is replaced by an open source one: extrusion rates rescaled for a plunger
+instead of a filament drive, travel limits redefined around the syringe, everything tied to
+heating the nozzle removed.
 
-The stock firmware is replaced by an open source one. This is what makes the rest work: the
-extrusion rates are rescaled for a plunger instead of a filament drive, the travel limits are
-redefined around the syringe assembly, and everything tied to heating the nozzle is removed,
-since nothing is heated here.
+The syringe is a 30 cc glass barrel with a metal luer lock, sized for fine biomaterials in
+small volumes. Changing the tip is enough to set the flow, which matches the machine to the
+viscosity of the material, down to very fluid ones. Tips run from 0.31 to 2.69 mm inner
+diameter, 24G to 10G. The extrusion is cold.
 
-The syringe is a 30 cc glass barrel with a metal luer lock. This capacity is intended for
-fine biomaterials in small volumes. The tip is mounted on the luer lock, so changing the tip
-is enough to set the flow, and the machine can be matched to the viscosity of the material,
-down to very fluid ones. Tips run from 0.31 to 2.69 mm inner diameter, 24G to 10G. The
-extrusion is cold.
+A delta can be fed trajectories directly, without going through a conventional slicer: the
+G-code can be a continuous path in space rather than a stack of planes. The motors are fixed
+to the frame and no axis is privileged, so a curve costs the machine no more than a straight
+line and the movement stays fluid. Conventional layer by layer printing works just as well.
 
-The design is inexpensive and every part can be found in a hardware store. The concept is to
-make bioprinting accessible outside of laboratories. The machine has been explored so far
-with one project, embedded printing in a Carbopol support bath. The recipe and the method are
-in this repository.
+The build is inexpensive and every part can be found in a hardware store. The concept is to
+make bioprinting accessible outside of laboratories. What the machine makes depends on what
+goes in the syringe and on what it prints into. Here it has been used for embedded printing
+in a Carbopol support bath, and that method is documented in this repository.
 
 **!!!!!!!!!!!!This is a workshop machine, made for experimental work. It is not a laboratory instrument, it is certified for nothing and it is not intended for any medical use.!!!!!!!!!!!!**
 
