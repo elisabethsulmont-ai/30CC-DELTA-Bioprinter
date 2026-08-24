@@ -32,6 +32,15 @@ G28
 homes the machine. Skipping this leaves the printer running on whatever was stored in the
 EEPROM before, and none of the settings below will apply.
 
+## Bed and zero position
+
+The original print bed is removed for this set up. Only the bare metal disc is kept underneath, which is a matter of
+taste rather than a technical requirement.
+
+The delta distances and the zero position are calculated from the surface of that disc, plus
+30 mm. That margin exists so that the tip can never reach the disc and crash the syringe
+assembly into it.
+
 ## Settings
 
 | | |
