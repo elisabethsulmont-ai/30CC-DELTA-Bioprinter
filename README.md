@@ -4,7 +4,7 @@ An open source syringe bioprinter for the extrusion of viscous biomaterials.
 The engineering was developed together with Ilias Poutsiakas (github.com/iliasPts).
 
 
-<img width="1069" height="1514" alt="DSCF9794-3" src="https://github.com/user-attachments/assets/68620e2d-9ea2-4a13-8952-54649a282f59" />
+<img width="534" height="757" alt="DSCF9794-3" src="https://github.com/user-attachments/assets/68620e2d-9ea2-4a13-8952-54649a282f59" />
 
 
 The machine is built on an Anycubic Kossel Linear Plus, a stock delta printer. The original board and the bare frame are kept. The hotend is removed and replaced by a syringe extruder, designed after the 300CC Extruder by Emmanuel Hugnot.
