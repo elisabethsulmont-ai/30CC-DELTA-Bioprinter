@@ -11,7 +11,7 @@ in any hardware store.
 | Ref | Part | Spec | Qty | Where |
 |---|---|---|---|---|
 | F-01 | Glass syringe | 30 ml, metal luer lock | 1 | [Amazon](https://www.amazon.fr/dp/B0B42BKT3S) |
-| F-02 | Blunt dispensing needles | Stainless steel, luer lock, 6 sizes, 30 pcs | 1 set | [BENECREAT](<!-- lien -->) |
+| F-02 | Blunt dispensing needles | Stainless steel, luer lock, 1.5 in, 10G to 24G, 16 pcs | 1 set | [Amazon](https://www.amazon.fr/dp/B083FCSTTY) |
 | D-02 | Timing belt | GT2, 6 mm wide, 2 mm pitch, 224 mm | 2 | [Amazon](https://www.amazon.fr/dp/B07NDYF2BT) |
 
 ## From the hardware store
