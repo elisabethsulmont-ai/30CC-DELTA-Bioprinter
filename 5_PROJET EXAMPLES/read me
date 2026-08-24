@@ -1,0 +1,25 @@
+# Liquid Dreaming
+
+The first project made with this machine, and the reason it was built.
+
+<!-- photo d'ouverture : une impression en suspension dans le bain, prise à travers le gel -->
+
+## The project
+
+Liquid Dreaming is a methodological platform. Dream narratives are passed through the latent
+space of a model, semantic trajectories are extracted from it, and those trajectories become
+the geometry printed inside the gel. The dreams are not the point, they are the entry that
+made sense.
+
+This folder documents the printing side of the project: how the shapes get made physically.
+
+## Why print inside a gel
+
+Soft matter laid in open air can only build what gravity allows. It slumps, it spreads, it
+falls. Printing into a support bath removes that limit.
+
+The bath used here is a Carbopol gel. It is transparent and self-healing: it opens ahead of
+the needle and closes behind it. What is deposited stays where it was deposited, held in
+suspension for the length of the print. Shapes that could not stand on their own become
+printable.
+
