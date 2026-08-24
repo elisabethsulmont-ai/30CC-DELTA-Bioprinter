@@ -13,12 +13,12 @@ The machine has been explored so far with one project, embedded printing in a Ca
 
 > **!!!!!!!!!!!!This is a workshop machine, made for experimental work. It is not a laboratory instrument, it is certified for nothing and it is not intended for any medical use.!!!!!!!!!!!!**
 
-<img width="534" height="757" alt="DSCF9827-3" src="https://github.com/user-attachments/assets/c28ab3e3-f6e4-4cf1-b219-f8663db59b5a" />
+
 
 <img width="534" height="757" alt="DSCF9794-3" src="https://github.com/user-attachments/assets/68620e2d-9ea2-4a13-8952-54649a282f59" />
 
 
-
+<img width="534" height="757" alt="DSCF9827-3" src="https://github.com/user-attachments/assets/c28ab3e3-f6e4-4cf1-b219-f8663db59b5a" />
 
 ___________________________________
 
