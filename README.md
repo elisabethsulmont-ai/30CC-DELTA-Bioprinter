@@ -27,6 +27,9 @@ in a Carbopol support bath, and that method is documented in this repository.
 
 **!!!!!!!!!!!!This is a workshop machine, made for experimental work. It is not a laboratory instrument, it is certified for nothing and it is not intended for any medical use.!!!!!!!!!!!!**
 
+Other than than, Have fun <3
+
+
 ## What is in this repository
 
 
