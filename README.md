@@ -3,6 +3,7 @@
 An open source syringe bioprinter for the extrusion of viscous biomaterials. The engineering was developed with Ilias Poutsiakas (github.com/iliasPts).
 
 The machine is built on an Anycubic Kossel Linear, a stock delta printer. The original board and the bare frame are kept. The hotend is removed and replaced by a syringe extruder, designed after the [300CC Extruder](https://www.thingiverse.com/thing:5215048)) by Emmanuel Hugnot.
+
 The syringe is a 30 cc glass barrel with a metal luer lock. This capacity is intended for fine biomaterials in small volumes. The tip is mounted on the luer lock, so changing the tip is enough to set the flow, and the machine can be matched to the viscosity of the material, down to very fluid ones. The extrusion is cold.
 
 | Tip diameters | 0.31 to 2.69 mm (24G to 10G), luer lock, interchangeable |
@@ -13,6 +14,7 @@ The machine has been explored so far with one project, embedded printing in a Ca
 > **!!!!!!!!!!!!This is a workshop machine, made for experimental work. It is not a laboratory instrument, it is certified for nothing and it is not intended for any medical use.!!!!!!!!!!!!**
 
 <img width="534" height="757" alt="DSCF9827-3" src="https://github.com/user-attachments/assets/c28ab3e3-f6e4-4cf1-b219-f8663db59b5a" />
+
 <img width="534" height="757" alt="DSCF9794-3" src="https://github.com/user-attachments/assets/68620e2d-9ea2-4a13-8952-54649a282f59" />
 
 
