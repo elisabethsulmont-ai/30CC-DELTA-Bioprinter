@@ -1,8 +1,8 @@
 # 30CC-DELTA-Bioprinter
 
-An open source syringe bioprinter for the extrusion of viscous biomaterials. The engineering was developed together with Ilias Poutsiakas (github.com/iliasPts).
+An open source syringe bioprinter for the extrusion of viscous biomaterials. The engineering was developed with Ilias Poutsiakas (github.com/iliasPts).
 
-The machine is built on an Anycubic Kossel Linear Plus, a stock delta printer. The original board and the bare frame are kept. The hotend is removed and replaced by a syringe extruder, designed after the 300CC Extruder by Emmanuel Hugnot.
+The machine is built on an Anycubic Kossel Linear Plus, a stock delta printer. The original board and the bare frame are kept. The hotend is removed and replaced by a syringe extruder, designed after the [300CC Extruder](https://www.thingiverse.com/thing:5215048)) by Emmanuel Hugnot.
 The syringe is a 30 cc glass barrel with a metal luer lock. This capacity is intended for fine biomaterials in small volumes. The tip is mounted on the luer lock, so changing the tip is enough to set the flow, and the machine can be matched to the viscosity of the material, down to very fluid ones. The extrusion is cold.
 
 The design is inexpensive and every part can be found in a hardware store. The concept is to make bioprinting accessible outside of laboratories.
