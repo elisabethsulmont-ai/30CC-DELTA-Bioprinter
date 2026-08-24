@@ -32,14 +32,13 @@ in this repository.
 |---|---|
 | `3D files` | Parts to print, and the editable sources to modify them |
 | `Components bill` | Everything to buy, with quantities and where to find it |
+| `Assembly` | How to build it, step by step, with photos |
 | `Firmware_marlin` | The two configuration files, and how to compile them |
-| `More pictures` | Photos of the machine and of prints |
 | `Project examples` | Projects made with the machine, starting with Liquid Dreaming |
 
 The order to follow: strip the printer down, print the parts from `3D files`, order what is
-listed in `Components bill`, assemble, then flash the firmware from `Firmware_marlin`. Once
-the machine runs, `Project examples` shows what has been done with it.
-
+listed in `Components bill`, build it with `Assembly`, then flash the firmware from
+`Firmware_marlin`. Once the machine runs, `Project examples` shows what has been done with it.
 
 
 <img width="534" height="757" alt="DSCF9794-3" src="https://github.com/user-attachments/assets/68620e2d-9ea2-4a13-8952-54649a282f59" />
