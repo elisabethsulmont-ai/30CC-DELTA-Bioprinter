@@ -24,7 +24,7 @@ make bioprinting accessible outside of laboratories. The machine has been explor
 with one project, embedded printing in a Carbopol support bath. The recipe and the method are
 in this repository.
 
-!!!!!!!!!!!!This is a workshop machine, made for experimental work. It is not a laboratory instrument, it is certified for nothing and it is not intended for any medical use.!!!!!!!!!!!!
+**!!!!!!!!!!!!This is a workshop machine, made for experimental work. It is not a laboratory instrument, it is certified for nothing and it is not intended for any medical use.!!!!!!!!!!!!**
 
 ## What is in this repository
 
