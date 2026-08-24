@@ -29,6 +29,7 @@ in a Carbopol support bath, and that method is documented in this repository.
 
 ## What is in this repository
 
+
 | Folder | What's inside |
 |---|---|
 | `3D files` | Parts to print, and the editable sources to modify them |
@@ -36,6 +37,7 @@ in a Carbopol support bath, and that method is documented in this repository.
 | `Assembly` | How to build it, step by step, with photos |
 | `Firmware_marlin` | The two configuration files, and how to compile them |
 | `Project examples` | Projects made with the machine, starting with Liquid Dreaming |
+
 
 The order to follow: strip the printer down, print the parts from `3D files`, order what is
 listed in `Components bill`, build it with `Assembly`, then flash the firmware from
