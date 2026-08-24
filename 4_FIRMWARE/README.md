@@ -20,17 +20,23 @@ itself is not redistributed, since it is upstream work under GPL v3.
 2. Replace `Marlin/Configuration.h` and `Marlin/Configuration_adv.h` in that repository with
    the two files from this folder.
 3. Compile and flash with PlatformIO.
-4. After flashing, send these commands in this order:
+4. After flashing, send these three commands in this order:
 
-```
-M502
-M500
-G28
-```
+| Command | What it does |
+|---|---|
+| `M502` | Loads the settings compiled into the firmware, the ones from `Configuration.h`, into memory. It does not save them yet. |
+| `M500` | Writes the settings currently in memory to the EEPROM, so they survive a power cycle. |
+| `G28` | Homes the machine. On a delta all three carriages travel to the top endstops, which re-establishes the origin. |
 
-`M502` loads the values compiled into the firmware, `M500` writes them to the EEPROM, `G28`
-homes the machine. Skipping this leaves the printer running on whatever was stored in the
-EEPROM before, and none of the settings below will apply.
+The order matters. Marlin reads the EEPROM at startup, not the file you just compiled, so after
+flashing the printer is still running on the values stored before. `M502` pulls in the new
+ones, `M500` makes them permanent, `G28` gives the machine a valid origin to work from.
+
+**This sequence erases anything set at runtime.** Values entered with `M92`, `M665`, `M666` or
+produced by a `G33` auto calibration are overwritten by the ones in the file. Any calibration
+has to be redone after this, then saved again with `M500`.
+
+Full command reference: [marlinfw.org/meta/gcode](https://marlinfw.org/meta/gcode/)
 
 ## Bed and zero position
 
