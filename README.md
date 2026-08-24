@@ -11,7 +11,7 @@ The machine is built on an Anycubic Kossel Linear Plus, a stock delta printer. T
 
 The syringe is a 30 cc glass barrel with a metal luer lock. This capacity is intended for fine biomaterials in small volumes. The tip is mounted on the luer lock, so changing the tip is enough to set the flow, and the machine can be matched to the viscosity of the material, down to very fluid ones. The extrusion is cold.
 
-<img width="1069" height="1514" alt="DSCF9827-3" src="https://github.com/user-attachments/assets/c28ab3e3-f6e4-4cf1-b219-f8663db59b5a" />
+<img width="534" height="757" alt="DSCF9827-3" src="https://github.com/user-attachments/assets/c28ab3e3-f6e4-4cf1-b219-f8663db59b5a" />
 
 
 The design is inexpensive and every part can be found in a hardware store. The concept is to make bioprinting accessible outside of laboratories.
