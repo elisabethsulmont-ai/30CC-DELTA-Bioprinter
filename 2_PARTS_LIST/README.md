@@ -1,25 +1,27 @@
-# Parts list
+# Components bill
 
-Tout ce qu'il faut acheter ou récupérer pour construire une machine. Les pièces à imprimer
-ne sont pas ici, elles sont dans [`../1_3D_FILES/`](../1_3D_FILES/).
+Everything you need to buy or salvage to build one machine. Parts to 3D print are not listed
+here, they are in the 3D files folder.
 
-Remplir [`parts.csv`](parts.csv), lisible dans n'importe quel tableur.
+The list is in [parts.csv](parts.csv). GitHub renders it as a sortable table.
 
-## Point de départ
+## How to read it
 
-La liste de pièces du 300CC d'Emmanuel Hugnot est un bon squelette, elle existe déjà en
-ligne (lien dans le README du 300CC, sur Thingiverse). Pars de là et note, pour chaque
-ligne, si tu as gardé, changé ou supprimé la pièce.
+| Column | Meaning |
+|---|---|
+| `ref` | Internal reference, used in the assembly guide |
+| `category` | Mechanics, Motion, Electronics, Fluidics, Fasteners, Consumables |
+| `designation` | What the part is, in plain words |
+| `specification` | The dimensions or values that actually matter |
+| `qty` | Quantity for one machine |
+| `supplier_example` | One place it can be bought, an example rather than an endorsement |
+| `price_eur` | Indicative, excluding shipping |
+| `critical` | `yes` if substituting this part changes how the machine behaves |
+| `notes` | Substitutions that work, traps to avoid |
 
-## À ne pas oublier
+## Starting point
 
-- la seringue : référence exacte, et où l'acheter
-- les aiguilles ou embouts, avec les diamètres que tu utilises vraiment
-- le récipient du bain, ses dimensions
-- les vis, groupées par taille avec la quantité totale
-- ce que tu récupères sur la Kossel plutôt que d'acheter
+The parts list of Emmanuel Hugnot's [300CC Extruder](https://www.thingiverse.com/thing:5215048)
+is a good skeleton and it is already online. Start from it, and note for each line whether the
+part was kept, changed or dropped.
 
-## Coût
-
-Total approximatif pour une machine, hors imprimante hôte et hors port :
-<!-- TODO --> EUR, estimation de <!-- TODO : mois, année. Un prix non daté n'est pas cru. -->
