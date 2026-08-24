@@ -19,18 +19,18 @@ in any hardware store.
 | Ref | Part | Spec | Qty |
 |---|---|---|---|
 | D-01 | Lead screw | T8, 220 mm, pitch 2 mm, lead 4 mm | 1 |
-| D-03 | Bearing | inner 12 mm, outer 21 mm | ? |
+| D-03 | Bearing | inner 12 mm, outer 21 mm | 1 set |
 | V-01 | Grub screw | M3 x 6, headless | 2 |
 | V-02 | Screw | M3 x 10 | 7 |
 | V-03 | Screw | M3 x 12 | 4 |
 | V-04 | Screw | M3 x 16 | 4 |
 | V-05 | Screw | M3 x 18 | 4 |
 | V-06 | Screw | M4 x 32 | 3 |
-| V-07 | Washer | M3 | ? |
+| V-07 | Washer | M3 | 1 set |
 | V-08 | Washer | M4 | 3 |
-| V-09 | Washer | 12 mm | ? |
-| V-10 | Nut | M3 | ? |
-| V-11 | Nut | M4 | ? |
+| V-09 | Washer | 12 mm | 1 set |
+| V-10 | Nut | M3 | 1 set |
+| V-11 | Nut | M4 | 1 set |
 
 ## Not bought
 
